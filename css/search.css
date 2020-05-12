@@ -1,0 +1,39 @@
+.section__title{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.inputs{
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+}
+.inputs * {
+    margin-right: 10px;
+}
+
+.inputs input {
+    padding: 15px 10px;
+    width: 25%;
+    border: 2px solid #ccc;
+    color: slateblue;
+}
+
+.inputs input.focus:focus{
+    border: 2px solid #ffcc00;
+ }
+ .inputs .larger{
+     width: 35%;
+ }
+ .search__btn { 
+     width: 10%;
+     background-color: #ff6633;
+     padding: 14px 10px;
+     border: 1px solid #ff6666;
+     border-radius: 0;
+     color: #fff;
+     font-size: 16px;
+ }

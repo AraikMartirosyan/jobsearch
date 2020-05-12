@@ -1,0 +1,19 @@
+.log__reg a{
+    margin-right: 20px;
+    font-size: 18px;
+}
+.log__reg a span {
+    color: #ccc;
+}
+.log__reg a span:hover {
+    color: #000;
+}
+.reg {
+    background-color: #ccc;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+.reg:hover {
+    background: #ffcc00;
+    color: #fff;
+}

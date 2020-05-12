@@ -1,0 +1,52 @@
+.wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/peopleInOffice.jpg) center no-repeat;
+    background-size: cover;
+}
+.wrap__inner{
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+.wrap__suptitle{
+    margin-bottom: 20px;
+    font-size: 92px;
+    color:#fff;
+}
+.wrap__title{
+    font-size: 69px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    color: #ffcc00;
+}
+
+.wrap__btns {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 120px;
+}
+.wrap__btn{
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 3px;
+    width: 250px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+.yellow__btn {
+    background-color: #ffcc00; 
+}
+.gray__btn {
+    background-color: #ccc;
+}

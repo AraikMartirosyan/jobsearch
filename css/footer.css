@@ -1,0 +1,31 @@
+/*footer*/
+.link{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 15% 50px 15%;`
+    transition: color .1s linear;
+    font-size: 18px;
+}
+footer .link a:hover{
+    color: #ffcc00;
+    
+}
+.soc__icons{
+    display: block;
+    text-align: center;
+    margin:40px auto 0 auto;
+}
+.soc__icons img{
+    width: 50px;
+    height: 50px;
+}
+.soc__icons img:hover{
+    width: 55px;
+    height: 55px;
+}
+.pow{
+    margin-top: 1%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
